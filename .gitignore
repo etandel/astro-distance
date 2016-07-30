@@ -181,3 +181,6 @@ TSWLatexianTemp*
 
 # vim swap
 .*.sw?
+
+# don't commit output
+*.pdf
