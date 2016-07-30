@@ -1,0 +1,95 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{minted}
+\usepackage{hyperref}
+
+\usetheme{metropolis}
+\graphicspath{{imgs/}}
+
+\begin{document}
+\title{Medindo Distâncias Astronômicas}
+\author{Elias Tandel}
+
+\frame{\titlepage}
+
+\frame{\frametitle{Técnicas}
+    \begin{itemize}
+        \item Radar [+ geometria]
+        \item Paralaxe
+        \item "Vela padrão"
+        \item Redshift (não vai dar tempo, fica pra próxima =( )
+    \end{itemize}
+}
+
+
+\frame{\frametitle{Radar}
+    \begin{itemize}
+        \item Objetos próximos no sistema solar (asteroides, planetas próximos, Lua etc.)
+        \item \( 2 d = \frac{c}{t} \)
+        \item Com um pouco de geometria tiramos UA: Distância média da Terra ao Sol
+        \item 1 UA = 149 597 870 700 m
+    \end{itemize}
+}
+
+\frame{\frametitle{Paralaxe}
+    \begin{itemize}
+        \item Quando você se move, o que tá perto parece se mexer em relação ao que tá longe
+    \end{itemize}
+}
+
+\frame{\frametitle{Paralaxe}
+    \includegraphics[width=\textwidth]{parallax}
+    \href{https://www.thunderbolts.info/eg_draft/eg_chapter_1.htm}{fonte}
+}
+
+
+\frame{\frametitle{Paralaxe}
+    \begin{itemize}
+        \item Quando o ângulo é de \( \frac{1}{3600} º = 1 arcsec \) a distância é 1 parsec (PARallax arcSECond)
+        \item \( 1 pc \approx 3.26 \) anos-luz \( \approx 206 000 \) UA \( \approx 3.0 * 10^{16} m \)
+        \item A estrela mais próxima (Proxima Centauri) está a 1.3 pc de distância
+        \item Hoje dá pra medir até \( \approx 8000 \) pc (distâncio ao centro da galáxia)
+    \end{itemize}
+}
+
+
+\frame{\frametitle{Vela padrão}
+    \begin{itemize}
+        \item A luminosidade da estrela é intrínsica a ela: quanta luz ela emite por unidade de tempo
+        \item O brilho da estrela depende da distância: quanto mais longe, mais fraco
+        \item Se soubermos a luminosidade da estrela, medimos o brilho e calculamos a distância:
+        \item \( b = \frac{L}{4 \pi d^2} \)
+        \item Pode ser usado em praticamente qualquer escala
+    \end{itemize}
+}
+
+
+\frame{\frametitle{Estrelas variáveis}
+    \includegraphics[width=\textwidth]{cepheid_light_curve}
+    \href{http://pics-about-space.com/edwin-hubble-cepheid-light-curve?p=1}{fonte}
+}
+
+
+\frame{\frametitle{Estrelas variáveis}
+    \includegraphics[width=\textwidth]{cepheids_period_luminosity}
+    \href{https://en.wikipedia.org/wiki/Classical_Cepheid_variable\#/media/File:Period-Luminosity_Relation_for_Cepheids.png}{fonte}
+}
+
+
+\frame{\frametitle{Supernova Ia}
+    \includegraphics[width=\textwidth]{supernova_1a}
+    \href{http://pics-about-space.com/type-ia-supernova-light-curve?p=1}{fonte}
+}
+
+
+\frame{\frametitle{Obrigado}
+    \begin{itemize}
+        \item @etandel
+        \item \href{https://etandel.xyz}{etandel.xyz} (em construção)
+        \item elias.tandel@gmail
+        \item elias@onyo.com
+    \end{itemize}
+
+}
+
+ \end{document}
