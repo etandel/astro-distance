@@ -92,4 +92,11 @@
 
 }
 
+\frame{\frametitle{Obrigado}
+    \begin{itemize}
+        \item \href{https://github.com/etandel/astro-distance}{Código da palestra}
+    \end{itemize}
+
+}
+
  \end{document}
